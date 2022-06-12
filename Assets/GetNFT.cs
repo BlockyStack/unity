@@ -12,7 +12,7 @@ public class GetNFT : MonoBehaviour
 
     async public static Task<string[]> Colors()
     {
-        string url = "https://oasis-multicall-stacks.herokuapp.com/owner?address=" + PlayerPrefs.GetString("Account");
+        string url = "https://oasis-stack-multicall.glitch.me/owner?address=" + PlayerPrefs.GetString("Account");
         UnityWebRequest webRequest = UnityWebRequest.Get(url);
         await webRequest.SendWebRequest();
         Response<string[]> data = JsonUtility.FromJson<Response<string[]>>(System.Text.Encoding.UTF8.GetString(webRequest.downloadHandler.data));

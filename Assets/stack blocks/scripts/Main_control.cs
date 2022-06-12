@@ -173,7 +173,7 @@ public class Main_control : MonoBehaviour
     }
 
     public void on_marketplace_btn() {
-        Application.OpenURL("http://youtube.com/");
+        Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
     }
 
     public void on_screenshot_btn() {
