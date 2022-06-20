@@ -173,7 +173,7 @@ public class Main_control : MonoBehaviour
     }
 
     public void on_marketplace_btn() {
-        Application.OpenURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        Application.OpenURL("https://tofunft.com/discover/items?contracts=36335&network=42262");
     }
 
     public void on_screenshot_btn() {
