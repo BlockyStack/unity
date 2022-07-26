@@ -83,6 +83,16 @@ public class Main_control : MonoBehaviour
         //加分 Add points
         this.num_score++;
         this.text_score.text = this.num_score + "";
+
+        isFourtyTwo();
+    }
+
+    public void isFourtyTwo()
+    {
+        if (this.num_score == 42)
+        {
+            this.game_obj_last_block.GetComponent<Renderer>().material.color = Color.red;
+        }
     }
 
     //change to game start
