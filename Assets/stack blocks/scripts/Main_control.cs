@@ -89,7 +89,7 @@ public class Main_control : MonoBehaviour
 
     public void isFourtyTwo()
     {
-        if (this.num_score == 42)
+        if (this.num_score == 43)
         {
             this.game_obj_last_block.GetComponent<Renderer>().material.color = Color.red;
         }
